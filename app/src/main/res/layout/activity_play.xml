@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+            android:id="@+id/player1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/playerOne"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:freezesText="true"/>
+
+            <TextView
+            android:id="@+id/player1WinScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/player1name"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="casual"
+            android:text="@string/player1WinScore"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:freezesText="true"/>
+
+            <TextView
+            android:id="@+id/player2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player1name"
+            android:fontFamily="casual"
+            android:text="@string/playerTwo"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:freezesText="true"/>
+
+            <TextView
+            android:id="@+id/player2WinScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player1WinScore"
+            android:layout_toRightOf="@id/player2name"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="casual"
+            android:text="@string/player2WinScore"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:freezesText="true"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="casual"
+            android:text="@string/reset"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="0dp"/>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:textColor="@color/black"
+            android:text=""
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:text=""
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            tools:ignore="Suspicious0dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/turn"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="casual"/>
+
+</LinearLayout>

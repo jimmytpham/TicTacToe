@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="welcome">Welcome to Tic Tac Toe</string>
+    <string-array name="mainMenu">
+        <item>Enter Names</item>
+        <item>Play Game</item>
+        <item>Standings</item>
+    </string-array>
+    <string name="names">Enter Names</string>
+    <string name="play">Play Game</string>
+    <string name="standing">Standings</string>
+    <string name="playerOne">Player 1</string>
+    <string name="playerTwo">Player 2</string>
+    <string name="player1WinScore">Wins: 0</string>
+    <string name="player2WinScore">Wins: 0</string>
+    <string name="zero">0</string>
+    <string name="reset">Reset</string>
+    <string name="playerOneNameHere">Enter Player One name here…</string>
+    <string name="playerTwoNameHere">Enter Player Two name here…</string>
+    <string name="saveName">Save Name(s)</string>
+    <string name="turn">It\'s ___\'s Turn</string>
+    <string name="single">Single Player</string>
+    <string name="two">Two Player</string>
+    <string-array name="difficultyList">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="clear">Clear Data</string>
+</resources>
